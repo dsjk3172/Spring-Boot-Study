@@ -1,7 +1,8 @@
-function alertDialogBox() {
+function question_2_DialogBox() {
     var i = 0;
+    var end = document.getElementById('question_2').value;
     var sum = 0;
-    for(i; i <= 10; i++){
+    for(i; i <= end; i++){
         sum += i
     }
     alert(sum);
